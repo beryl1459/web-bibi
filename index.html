@@ -8,12 +8,60 @@
  <meta name="author" content="">
  <meta name="keywords" content=""> 
   <!--keywords는 쓰나 안쓰나 별 소용없음 -->
- 
-  <meta name="og:title" content="HTML 처음 만드는 페이지">
- 
+  
+ <meta name="og:title" content="HTML 처음 만드는 페이지">
+ <meta property="og:title" content="처음 만드는 html 페이지">
+ <meta property="og:description" content="이 페이지는 고은비의 html 페이지^^">
+  
+  <!-- 아래는 스타일 css file 불러오기,-->
+  <link href="style.css" type="text/css" rel="stylesheet">
+  
+  <!-- 아래 style 태그는 헤드 바디 어디있는 상관없음-->
+  <style>
+   p {font-size: 20px; 
+     }
+  </style> 
+
+ <script>
+    //alert('당신의 컴퓨터가 감염되었습니다. 치료하시려면 1.0 btc를 보내세요');
+ </script>
+ <script src"index.js"> </script>
+  
 </head>
 
 <body>
+  <!--만약 h 내용에 꺽쇄 쓰고싶으면 ascii code 사용하기 -->
+  <!-- 로고나 중요한 컨텐츠 표기할때도 h1 사용 -->
+ <h1 id="main title">어른폰 14 출시 가격 적절한가?</h1>
+  <!--내용쓰고 싶으면 p타입태그사용하기 -->
+ <p> 최근 출시된 어른폰 14의 가격이 화제다. </p>
+ <p> 이벤트로 발표된 어른폰 14와 14프로의 가격이 각각 3천만원과 4천만원으로 밝혀져 많은 사람들의 분노를 사고 있다. <!-- br tag is enter--> </br> 이에 탐탐 어른 컴퍼니 사장은 "what,else?"라고 발언하여 또 다시 여론의 뭇매를 맞고 있다. </p> 
+ <h2> 어른폰 14 모델별 가격</h2> 
+  <ul> <!-- ul  비순서형으로 내용정리 -->
+   <li>어른폰 14: 3천만원</li>
+   <li>어른폰 14 프로: 4천만원</li>
+   <li>어른폰 14 맥스: 6천만원</li>
+   <li>어른폰 14 프로맥스: 1억원</li>
+  </ul>
+  <ol start="14" type="A" reversed> <!-- type a A(알파벳) i I (로마자) -->
+<!-- ol 오름차순으로 순서정리, ol reversed 쓰면 내림차순으로 순서 바꿔줌, start="번호" 써주면 14부터 시작해서 오름차순, start="숫자" reversed 쓰면 14부터 내림차순 -->
+   <li>어른폰 14: 3천만원</li>
+   <li>어른폰 14 프로: 4천만원</li>
+   <li>어른폰 14 맥스: 6천만원</li>
+   <li>어른폰 14 프로맥스: 1억원</li>
+  </ol>
+
+  <!--아래 a href url 의 target을 안적어주면, 새로운 페이지에서 안열린다. 그래서 우리 홈페이지에서 나가버림 (외부 링크는 항상 target 적어서 새탭으로 열어준다.-->
+  <a href="https://www.google.com/" target="_blank"> Go to google </a>
+  <br> <a href="#main title"> Go to title </a> 
+  
+ <h2>개요</h2>
+ <h2>스마트폰 시장의 현황</h2>
+ <h3>한국</h3>
+ <h3>세계</h3>
+
+
+  
 <p>this is my home</p>
 </body>
 </html>

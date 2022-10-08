@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+  <head> <!--직접적으로 보이지 않음 --> 
+    <meta charset="utf-8">   <!--enc-kr은 잘 작동안함 -->
+    <title> 나의 첫 symantic 페이지 </title>  <!-- title 제일 페이지위에-->
+    <meta name="viwport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="나의 첫 symantic 페이지">
+    <meta property="og:title" content="나의 첫 symantic 페이지"> <!--오픈그래프 태그 -->      
+   </head>
+  
+  <body> <!-- 구조화 하는 부분이 body 부분 -->
+    <header>
+       <!-- symantic tag: logo, nav, search -->
+       <nav id="main-menu"> <!--id는 여러번 쓰이면 안된다, 문서에서 유일해야함 -->
+         <ul>
+           <li>Home</li>
+           <li>About</li>
+         </ul>
+    </header>
+    <main> 
+      <section>
+        <h1>메인 타이틀 </h1> <!--h1만 꼭 한개 써야함-->
+        <p>paragraph태그로 기사의 본문을 쓸 수 있다.</p>
+      </section>
+      
+      <section> 
+        <h2> 어른폰 가격 변동 추이 <h2>
+        <p>어른폰은 2008년 출시 이후 꾸준히 가격이 상승해왔다.</p>
+      </section>
+      <section class="faq"
+       <h2>자주 묻는 질문</h2>
+         <details>
+            <summary>Q.어른폰은 언제 사야 하나요?</summary>
+            <span>A. 당장이요</span>
+         </details>
+         <details>
+            <summary>Q.통신사는자유롭나요?</summary>
+            <span>A.넵 그렇습니다.</span>
+          </details>
+     </section>
+     <table>
+       <caption>표1.중간고사성적표</caption>  <!--어느위치에 둬도 unique 해서 동작 -->
+       <thead> <!--테이블 데이터 정의 -->
+         <tr>
+           <th>번호</th>  <!--헤더 -->
+           <th>점수</th> 
+         </tr>
+       </thead>
+       <tbody>
+         <tr>
+           <td>1</td>
+           <td>100</td>
+         </tr>
+         <tr>
+           <td>2</td>
+           <td>80</td>
+         </tr>
+       </tbody>
+       <tfoot>  <!--tfood는 symantic tagㄹㅏ서 어떤 구조적인 의미가 없어서 tr 적어줘야함 --> 
+        <tr> 
+          <td>평균</td>
+          <td>90</td>
+        </tr>
+       </tfoot>
+     </table>
+   </main>
+    <article>
+       <h2>당신의 의견을 제출하세요.</h2>
+       <form action="#" method="post">
+        <input type="text" id="opinion" name="opinion"        
+       </form>
+     </article>
+      <article id="featured-posts">
+          <artic class="featured-post">
+            <h2>은하 13 출시 임박</h2>
+          </artic>
+         <artic class="featured-post">
+            <h2>아이폰 14싸게 사는 방법</h2>
+          </artic>
+      </article>
+      <aside>
+        <h2>featured comments</h2>
+        <ul>
+          <li>우와 정말 정보가 많네요.</li>
+          <li>후속 기사가 기대됩니다.</li>
+        </ul>
+      </aside>
+      <footer>
+        <span>Copyrights 2020-2022 by bbi all rights reserved. </span>
+      </footer>
+   
+  </body>
+</html>
+
+
+  

@@ -64,13 +64,47 @@
        </tfoot>
      </table>
    </main>
+    <article>  
+      <p>
+        <strong>strong</strong>과 
+        <b>b</b>의 차이가 느껴지십니까?
+        혹은,
+        <em>em</em>과
+        <i>i</i>의 차이가 느껴지십니까?
+      </p>
+    </article>       
     <article>
        <h2>당신의 의견을 제출하세요.</h2>
        <form action="#" method="post">
-        <input type="text" id="opinion" name="opinion"        
+         <label for="uname">유저네임</label> 
+         <!--label태그 역할: 유저네임을 눌러도 input태그의 속성값에도 내용입력 커서가 들어간다 -->
+         <input type="text" id="uname" name="uname">
+         <label for="u-pw">패스워드</label>
+         <input type="password" id="u-pw" name="u-pw">
+         <span>의견</span>  <!--논리적인 관계없이 span을 사용 -->
+         <input type="text" id="opinion" name="opinion" >      
+         <input type="submit">
+         <button type="reset">취소</button>
        </form>
      </article>
-      <article id="featured-posts">
+     <article>
+       <label for="user-movie">Choose your favorite movie</label>
+       <input list="movies" id="user-movie" name="movie">
+       <datalist id="movies">
+       <option value="Dune"></option>
+       <option value="Arrival"></option>
+       <option value="Blade Runner 2049"></option>
+       </datalist>
+     </article>
+     <article>
+       <select name="coffee" id="coffee-menu">
+        <label for="coffee-menu">Choose a menu:</label> 
+        <option value="">--메뉴를 고르세요 --</option>
+        <option value="americano">아메리카노</option>
+        <option value="mocha">모카</option>
+       </select>
+     </article>
+     <article id="featured-posts">
           <artic class="featured-post">
             <h2>은하 13 출시 임박</h2>
           </artic>

@@ -4,7 +4,7 @@ h3,
 h4, 
 h5, 
 h6 { font-family: 'NanumSquare', sans-serif ;
-    color: skyblue;
+    color: red;
  }    /* ; 붙이는건 먼저 우선 적용하라는 거 */
 p { font-family: 'Noto Sans KR', sans-serif;
 }

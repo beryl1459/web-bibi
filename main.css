@@ -21,7 +21,7 @@ p.subtitle { font-family: 'Noto Sans KR', sans-serif;
 }
 
 .main-wrapper {
- width: 500px; 
+ width: 1200px; 
  margin: 0 auto;  /* auto는 남는 값을 나눠 가지라는 뜻 */
 }
 

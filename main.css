@@ -51,3 +51,28 @@ p.subtitle { font-family: 'Noto Sans KR', sans-serif;
   background-color: blue;
   display: inline-block;
 }
+
+/*
+ * css flex
+ */
+
+.content-wrapper {
+  display:flex;
+  flex-direction: column;  /* 가로가 기본값, 세로로 설정하려면 column 사용 */ 
+}
+
+.flex-a {
+  width: 300px;
+  height: 100px;
+  background-color: red;
+}
+.flex-b {
+  width: 300px;
+  height: 100px;
+  background-color: green;
+}
+.flex-c {
+  width: 300px;
+  height: 100px;
+  background-color: blue;
+}
